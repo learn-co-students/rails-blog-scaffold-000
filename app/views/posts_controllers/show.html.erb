@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @posts_controller.title %>
+</p>
+
+<%= link_to 'Edit', edit_posts_controller_path(@posts_controller) %> |
+<%= link_to 'Back', posts_controllers_path %>
